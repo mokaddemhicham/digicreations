@@ -1,0 +1,428 @@
+/* =================================================
+
+Template Name:  Keira - One Page Portfolio Template
+Author: MouriThemes
+Version: 1.0
+Design and Developed by: MouriThemes
+
+NB: This is the main stylesheet of this theme.
+
+=================================================== */
+
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px){
+    .lg-mb-30{
+        margin-bottom: 30px;
+    }
+}
+
+    /* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .sm-mb-30{
+        margin-bottom: 30px;
+    }
+
+    .about-video .bx-img::after {
+        background: none;
+    }
+
+    .about-video{
+        margin-bottom: 30px;
+    }
+
+    .about-main {
+        padding-left: 0;
+    }
+    .single-video img{
+        width: 100%;
+    }
+    .photo-galleries ul li a img {
+        width: 100px;
+        cursor: crosshair;
+    }
+
+    .welcome-text h2 {
+        font-size: 40px;
+    }
+    
+
+    .banner-text-area h1 {
+        line-height: 1.5;
+        font-size: 40px;
+    }
+
+    .slider-middle-text {
+        top: 40%;
+    }
+
+    .single-pricing .price-value {
+        font-size: 45px;
+    }
+
+    #testimonial-carousel .item p {
+        width: 90%;
+    }
+
+    .dis-form-title {
+        margin-bottom: 30px;
+    }
+
+    .row.discussion-reply {
+        margin-left: 60px;
+    }
+
+    .discussion-form-area .btn.btn-send {
+        margin-bottom: 40px;
+    }
+
+    .con-right-side {
+        margin-left: 10px;
+    }
+
+    .footer-top-area p {
+        font-size: 14px;
+    }
+
+    .footer-top-area h4 {
+        font-size: 20px;
+    }
+
+    .sm-mb-0{
+        margin-bottom: 0;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+
+    .section-padding{
+        padding: 60px 0;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #00B0DC;
+    }
+
+    .navbar-right li a {
+        padding: 10px;
+    }
+
+    .navbar-nav {
+        display: inherit;
+        background-color: transparent;
+    }
+
+    .navbar-nav li {
+        float: left;
+        display: inherit;
+        width: 100%;
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+    }
+
+    .sticky_navigation .nav li a {
+        color: #ffffff;
+        text-align: center;
+    }
+    .navbar-right li a {
+        text-align: center;
+    }
+
+    .navbar-right li a {
+        padding: 7px;
+    }
+
+    .welcome-text h3 {
+        font-size: 18px;
+        line-height: 1.3;
+        word-spacing: 0;
+        letter-spacing: 0;
+        font-weight: 600;
+    }
+
+    .welcome-text h1.ah-headline {
+        font-size: 30px;
+    }
+
+
+    .welcome-des {
+        font-size: 13px;
+    }
+
+    .banner-text-area p {
+        font-size: 13px;
+    }
+
+    .banner-btn a {
+        padding: 8px 20px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .slide-btn a {
+        padding: 10px 20px;
+        letter-spacing: 1px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .slide-control {
+        color: rgba(255,255,255,0.4);
+        font-size: 50px;
+        left: 10px;
+        margin-top: -45px;
+    }
+
+    .slide-control.right {
+        right: 10px;
+    }
+
+    .banner-text-area h1 {
+        font-size: 30px;
+        line-height: 1.3;
+        word-spacing: 0;
+        letter-spacing: 0;
+        font-weight: 600;
+    }
+
+    .banner-text-area h3 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .slider-middle-text {
+        top: 25%;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+    }
+
+    .section-header h2{
+        font-size: 30px;
+    }
+
+    .xs-mb-30{
+        margin-bottom: 30px;
+    }
+
+    .about-main .banner-btn a {
+        margin-bottom: 30px;
+        padding: 10px 25px;
+        letter-spacing: 1px;
+    }
+
+    .about-main {
+        padding-left: 0;
+    }
+
+    .about-video .bx-img::after {
+        background: none;
+    }
+
+    .about-video {
+        margin-bottom: 30px;
+    }
+    .single-video img{
+        width: 100%;
+    }
+    .about-main h2 {
+        font-size: 25px;
+        line-height: 1.3;
+    }
+
+    ul.port-nav-list li {
+        margin-bottom: 10px;
+    }
+
+    .about-main h2 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .overlay .overlay-inner {
+        top: 30%;
+    }
+
+    .services-area .sin-services {
+        padding: 20px;
+    }
+
+    #testimonial-carousel .item p {
+        width: 95%;
+    }
+
+    .single-pricing .price-value {
+        font-size: 45px;
+    }
+
+    .blog-img img {
+        width: 100%;
+    }
+
+    .photo-galleries ul li a img {
+        width: 89px;
+    }
+
+    .single-count h2 {
+        font-size: 45px;
+    }
+
+    .single-count p {
+        font-size: 16px;
+    }
+
+    .row.discussion-reply {
+        margin-left: 0;
+    }
+
+    .discussion-items img {
+        width: 100%;
+    }
+
+    .diss-no-padding{
+        padding: 0;
+    }
+
+    .discussion-items {
+        padding: 0 15px 25px;
+    }
+
+    .discussion-metadata h5 {
+        margin: 0 0 10px;
+    }
+
+    .discussion-form-area .btn.btn-send {
+        margin-bottom: 50px;
+    }
+
+    .single-post-text h2 {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .compliment-area .meta span {
+        margin-right: 10px;
+    }
+
+    .dis-form-title {
+        margin-bottom: 40px;
+    }
+
+    .dis-button {
+        font-weight: 600;
+    }
+
+    .search-area input[type="search"] {
+        padding: 10px 0;
+    }
+
+    .single-footer-top.photo-galleries h4 {
+        margin-left: 0;
+    }
+
+    .con-right-header {
+        margin-top: 50px;
+    }
+
+    .con-right-side {
+        margin-left: 0;
+    }
+
+    .xs-mb-0{
+        margin-bottom: 0;
+    }
+    
+    .right-contact {
+        margin-top: 30px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 767px){
+
+}
+
+
+@media screen and (min-width: 575px) and (max-width: 767px){
+    .slider-middle-text {
+        top: 40%;
+    }
+
+    .banner-text-area h1 {
+        font-size: 45px;
+        line-height: 1.5;
+    }
+
+
+    .overlay .overlay-inner h4 {
+        font-size: 30px;
+    }
+
+    .overlay .overlay-inner p {
+        font-size: 18px;
+    }
+
+    .single-pricing .heading {
+        font-size: 25px;
+    }
+
+    .photo-galleries ul li a img {
+        width: 140px;
+    }
+
+    .banner-text-area p {
+        font-size: 15px;
+    }
+
+    .banner-text-area h3 {
+        font-size: 20px;
+    }
+
+    .welcome-text h3{
+        font-size: 24px;
+    }
+
+    .welcome-des {
+        font-size: 15px;
+    }
+
+    .team-text-middle a {
+        width: 50px;
+        height: 50px;
+    }
+
+    .team-text-middle a i {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    ul.social-list li a {
+        width: 40px;
+        height: 40px;
+    }
+    ul.social-list li a i {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+}
+
+
